@@ -1,4 +1,8 @@
 const today = new Date();
-console.log(today.getFullYear());  // 年を表示
-console.log(today.getMonth() + 1); // 月を表示
-console.log(today.getDate());      // 日付を表示
+
+let year=today.getFullYear();
+let month=today.getMonth() + 1;
+let day=today.getDate();
+console.log(year+'年'+month+'月'+day+'日');
+
+
